@@ -11,10 +11,16 @@ On Ubuntu: Follow this tutorial: [Tutorial](https://www.digitalocean.com/communi
 Once installed install a nodejs server to your own project. You can use a sample server. We also need to install Foreman.
 
 > gem install foreman
+
 > git clone git://github.com/mikeatlas/realtime-server.git
+
 > cd realtime-server
+
 > sudo npm install
+
 > foreman start
+
+
 
 
 
