@@ -29,7 +29,7 @@ On Ubuntu: Follow this tutorial: [Tutorial](https://www.digitalocean.com/communi
 It's important to start your redis server first. Foreman searches for the redisserver and communicates with it. Rails server obviously runs your project.
 
 ### Test your redis server:
-The standard channel where the realtime-server listnes to is "realtime_msg".
+The standard channel where the realtime-server listens to is "realtime_msg".
 You can check if your publish/subscribe system is working in rails console:
 
 > $redis.subscribe('realtime_msg') do |on|
