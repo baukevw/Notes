@@ -34,3 +34,8 @@ Enter postgres shell
 ```bash
 docker exec -it IMAGE_NAME psql -U postgres
 ```
+
+Enter bash shell
+```bash
+docker exec -it IMAGE_NAME bash
+```
