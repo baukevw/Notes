@@ -29,3 +29,8 @@ Link a container
 ```bash
 docker run --name NAME -p OUTSIDEPORT:INSIDEPORT --link LINK_TO-NAME -d IMAGE_ID
 ```
+
+Enter postgres shell
+```bash
+docker exec -it IMAGE_NAME psql -U postgres
+```
